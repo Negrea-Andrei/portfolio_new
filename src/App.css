@@ -1,3 +1,16 @@
+@font-face {
+  font-family: fontBold;
+  src: url('../assets/fonts/CentraNo2-Bold.ttf');
+}
+@font-face {
+  font-family: fontBook;
+  src: url("../assets/fonts/CentraNo2-Book.ttf");
+}
+@font-face {
+  font-family: fontMedium;
+  src: url('../assets/fonts/CentraNo2-Medium.ttf');
+}
+
 .App {
   text-align: center;
 }
