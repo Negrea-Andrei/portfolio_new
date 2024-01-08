@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
+import navIcon2 from "../assets/img/nav-icon2.svg"
 
 export default function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
@@ -67,7 +68,10 @@ export default function NavBar() {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/andrei-negrea-49a669239/">
-                <img src={navIcon1} alt="glasses-logo" />
+                <img src={navIcon1} alt="linkedin-logo" />
+              </a>
+              <a href="https://github.com/Negrea-Andrei">
+                <img src={navIcon2} alt="github-logo" />
               </a>
             </div>
             <button className="vvd">
