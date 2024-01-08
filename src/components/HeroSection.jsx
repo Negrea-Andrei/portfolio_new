@@ -11,7 +11,7 @@ export default function HeroSection() {
             <span className="tagline">Welcome to my world!</span>
             <h1>
               Hey! I am Andrei!
-              <br /> Web Developer
+              <br /><span className="space-color"> Web Developer</span>
             </h1>
             <p>
               An expertise in all stages of development (HTML, CSS, JavaScript,
