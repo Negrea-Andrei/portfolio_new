@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import {ArrowRightCircle} from "react-bootstrap-icons"
-import heroImg from "../assets/img/header-img.svg"
+import { ArrowRightCircle } from "react-bootstrap-icons";
+import heroImg from "../assets/img/header-img.svg";
 
 export default function HeroSection() {
   return (
@@ -8,11 +8,11 @@ export default function HeroSection() {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to mo Portfolio</span>
-            <hi>
-              {`Hey! I am Andrei`}
-              <span className="wrap">Get to know me!</span>
-            </hi>
+            <span className="tagline">Welcome to my world!</span>
+            <h1>
+              Hey! I am Andrei!
+              <br /> Web Developer
+            </h1>
             <p>
               An expertise in all stages of development (HTML, CSS, JavaScript,
               React, Webpack, MongoDB, Node.js, Express), I'm dedicated to
@@ -22,9 +22,11 @@ export default function HeroSection() {
               from working with text and images to supporting IT and managing
               databases, showing that I can adapt and excel in different roles.
             </p>
-            <button onClick={() => console.log('test') }>Let's talk more!<ArrowRightCircle size={25}></ArrowRightCircle></button>
+            <button onClick={() => console.log("test")}>
+              Let's talk more!<ArrowRightCircle size={25}></ArrowRightCircle>
+            </button>
           </Col>
-          <Col xs={15} md={6} xl={5} >
+          <Col xs={15} md={6} xl={5}>
             <img src={heroImg} alt="Hero img"></img>
           </Col>
         </Row>
