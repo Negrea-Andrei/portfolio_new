@@ -3,7 +3,9 @@ import NavBar from './components/NavBar'
 import HeroSection from './components/HeroSection'
 import SkillsSection from "./components/SkillsSection"
 import Projects from "./components/Projects"
+import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
       <NavBar/>
       <HeroSection/>
       <SkillsSection/>
-      <Projects/>   
+      <Projects/>
+      <Contact/>   
     </div>
   );
 }

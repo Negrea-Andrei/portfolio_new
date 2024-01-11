@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Tab from "react-bootstrap/Tab";
 import Card from "./Card";
-import background2 from "../assets/img/color-sharp2.png"
 import placeholder from "../assets/img/placeholder.png"
 
 export default function Project() {
@@ -49,7 +48,6 @@ export default function Project() {
           </Col>
         </Row>
       </Container>
-      <img src={background2} alt="projects-background" className='background-image-left'/>
     </section>
   );
 }

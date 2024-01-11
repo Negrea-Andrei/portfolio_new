@@ -9,13 +9,11 @@ import mongodb_logo from "../assets/img/icons/mongodb_logo.svg"
 import node_js_logo from "../assets/img/icons/node_js_logo.svg"
 import jira_logo from "../assets/img/icons/jira_logo.svg"
 import webpack_logo from "../assets/img/icons/webpack_logo.svg"
-import background1 from "../assets/img/color-sharp.png"
 import 'react-multi-carousel/lib/styles.css';
 
 export default function SkillsSection() {
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
@@ -83,7 +81,6 @@ export default function SkillsSection() {
                     </Col>
                 </Row>
             </Container>
-            <img className='background-image-left' src={background1} alt="skills-background"/>
         </section>
     )
 }
