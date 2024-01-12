@@ -587,6 +587,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .download-resume button {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: white;
   padding: 20px 65px;
   color: #000000;

@@ -73,10 +73,7 @@ export default function NavBar() {
               <a href="https://github.com/Negrea-Andrei">
                 <img src={navIcon2} alt="github-logo" />
               </a>
-            </div>
-            <button className="vvd">
-              <span>Let’s Connect</span>
-            </button>
+            </div>            
           </span>
         </Navbar.Collapse>
       </Container>
