@@ -6,6 +6,7 @@ import Projects from "./components/Projects"
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <SkillsSection/>
       <Projects/>      
       <Contact/>
-      <Resume/>   
+      <Resume/>
+      <Footer/>   
     </div>
   );
 }
