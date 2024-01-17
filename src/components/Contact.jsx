@@ -12,15 +12,31 @@ export default function Contact() {
   const [buttonText, setButtonText] = useState("Send");
   const [status, setStatus] = useState({});
 
-  const onFormUpdate = (category, value) => {
+  const onFormUpdate = (key, value) => {
     setFormDetails({
       ...formDetails,
-      [category]: value,
+      [key]: value,
     });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setButtonText("Sending...");
+    let response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(formDetails),
+    });
+    let result = await response.json();
+    setButtonText("Send");
+    setFormDetails(formDetails);
+    if (result.code === 200) {
+      setStatus({ success: true, message: "The message was sent" });
+    } else {
+      setStatus({ success: false, message: "The message was not sent" });
+    }
   };
 
   return (
@@ -68,15 +84,17 @@ export default function Contact() {
                       </button>
                     </Col>
                     {status.message && (
-                      <Col>
-                        <p
-                          className={
-                            status.success === false ? "danger" : "success"
-                          }
-                        >
-                          {status.message}
-                        </p>
-                      </Col>
+                      <Row>
+                        <Col>
+                          <p
+                            className={
+                              status.success === false ? "danger" : "success"
+                            }
+                          >
+                            {status.message}
+                          </p>
+                        </Col>
+                      </Row>
                     )}
                   </Row>
                 </form>

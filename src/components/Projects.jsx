@@ -4,6 +4,7 @@ import Card from "./Card";
 import pokemon from "../assets/img/pokemon-game.png";
 import CV from "../assets/img/CV.jpg";
 import placeholder from "../assets/img/placeholder.png";
+import weather from "../assets/img/weather.png"
 import TODO from "../assets/img/TODO.png";
 
 export default function Project() {
@@ -29,10 +30,10 @@ export default function Project() {
       URL: "https://negrea-andrei.github.io/TODO/",
     },
     {
-      title: "Project",
-      description: "Coming soon",
-      imgURL: placeholder,
-      URL: "https://www.youtube.com/watch?v=YSNsZQf_CPM",
+      title: "Weather",
+      description: "This web application fetches real-time weather information based on user input for city and country. It utilizes the WeatherAPI to gather data and presents it in a user-friendly card format.",
+      imgURL: weather,
+      URL: "https://negrea-andrei.github.io/weather/",
     },
     {
       title: "Project",
