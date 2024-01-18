@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import heroImg from "../assets/img/header-img.svg";
 
 export default function HeroSection() {
@@ -22,9 +21,6 @@ export default function HeroSection() {
               from working with text and images to supporting IT and managing
               databases, showing that I can adapt and excel in different roles.
             </p>
-            <button onClick={() => console.log("test")}>
-              Let's talk more!<ArrowRightCircle size={25}></ArrowRightCircle>
-            </button>
           </Col>
           <Col xs={15} md={6} xl={5}>
             <img src={heroImg} alt="Hero img"></img>
