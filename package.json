@@ -2,7 +2,6 @@
   "name": "portfolio_new",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:1000/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,7 +11,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "node": "^14.17.0",
+    "node": "^21.2.0",
     "nodemailer": "^6.9.8",
     "nodemon": "^3.0.2",
     "path": "^0.12.7",
@@ -26,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts --max-old-space-size=4096 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,8 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
