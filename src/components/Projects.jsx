@@ -39,13 +39,13 @@ export default function Project() {
       title: "Project",
       description: "Coming soon",
       imgURL: placeholder,
-      URL: "https://www.youtube.com/watch?v=YSNsZQf_CPM",
+      URL: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUIcmlja3JvbGw%3D",
     },
     {
       title: "Project",
       description: "Coming soon",
       imgURL: placeholder,
-      URL: "https://www.youtube.com/watch?v=YSNsZQf_CPM",
+      URL: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUIcmlja3JvbGw%3D",
     },
   ];
   return (
