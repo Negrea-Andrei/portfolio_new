@@ -267,7 +267,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .hero {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 160px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -343,7 +343,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-bx {
-  background: #151515;
+  background: #014f81;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
