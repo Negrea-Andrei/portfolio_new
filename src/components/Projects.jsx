@@ -6,6 +6,7 @@ import CV from "../assets/img/CV.jpg";
 import placeholder from "../assets/img/placeholder.png";
 import weather from "../assets/img/weather.png"
 import TODO from "../assets/img/TODO.png";
+import snake from "../assets/img/snake.png"
 
 export default function Project() {
   const projects = [
@@ -36,10 +37,10 @@ export default function Project() {
       URL: "https://negrea-andrei.github.io/weather/",
     },
     {
-      title: "Project",
-      description: "Coming soon",
-      imgURL: placeholder,
-      URL: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUIcmlja3JvbGw%3D",
+      title: "Snake game",
+      description: "This is a classic implementation of the snake game using HTML, CSS, and JavaScript. The game features a snake that moves around a grid, eating food to grow longer. Your goal is to collect as much food as possible without colliding with the boundaries of the game board or the snake's own body.",
+      imgURL: snake,
+      URL: "https://negrea-andrei.github.io/snake_game/",
     },
     {
       title: "Project",
