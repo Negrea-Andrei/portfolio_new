@@ -13,13 +13,12 @@ export default function HeroSection() {
               <br /><span className="space-color"> Web Developer</span>
             </h1>
             <p>
-              An expertise in all stages of development (HTML, CSS, JavaScript,
-              React, Webpack, MongoDB, Node.js, Express), I'm dedicated to
-              driving innovation and crafting seamless digital experiences. A
-              young, open-minded, always eager to learn and improve trailblazer
-              who evolved from a deposit clerk to a tech virtuoso. I've switched
-              from working with text and images to supporting IT and managing
-              databases, showing that I can adapt and excel in different roles.
+              Proficient in full-stack development (HTML, CSS, JavaScript, React, Webpack, MongoDB, Node.js, Express), 
+              I'm dedicated to driving innovation and creating seamless digital experiences. As a young, open-minded 
+              trailblazer, I've evolved from a deposit clerk to a tech virtuoso, demonstrating adaptability in roles 
+              from text and images to IT support and database management. Passionate about building and problem-solving, 
+              I am committed to continuous learning across various fields and technologies, consistently delivering creative 
+              solutions in the ever-evolving tech landscape.
             </p>
           </Col>
           <Col xs={15} md={6} xl={5}>
