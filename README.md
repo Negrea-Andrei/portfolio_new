@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to the repository of my personal portfolio website. This platform showcases my skills, projects, and experience. The portfolio is built using Express and Node.js for the backend, Nodemailer for email functionality, and React with Bootstrap-React for the frontend.
 
-In the project directory, you can run:
+**Explore the Live Site: [https://andrei-negrea-contact.onrender.com/](https://andrei-negrea-contact.onrender.com/)**
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Built With](#built-with)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ensure you have the following software installed on your machine:
 
-### `npm run build`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    git clone https://github.com/Negrea-Andrei/portfolio_new.git
+    ```
 
-### `npm run eject`
+2. **Navigate to the project directory:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    cd portfolio_new
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Install dependencies:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+To run the application locally, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Navigate to the project directory:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    cd portfolio_new
+    ```
 
-### Code Splitting
+2. **Start the development server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    npm start
+    ```
 
-### Analyzing the Bundle Size
+3. **Visit [http://localhost:3000](http://localhost:3000) in your web browser to explore the portfolio.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Features
 
-### Making a Progressive Web App
+- **Responsive Design:** Ensures a seamless experience across various devices and screen sizes.
+- **Project Showcase:** Highlights projects with detailed descriptions, images, and links.
+- **Contact Form:** Allows users to reach out directly via a contact form, powered by Nodemailer for email notifications.
+- **Resume Section:** Dedicated space for users to view your resume. Click the "View Resume" button to access it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Built With
 
-### Advanced Configuration
+### Backend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [Express](https://expressjs.com/): Web application framework for Node.js.
+- [Node.js](https://nodejs.org/): JavaScript runtime.
+- [Nodemailer](https://nodemailer.com/): Email sending module for Node.js.
 
-### Deployment
+### Frontend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [React](https://reactjs.org/): JavaScript library for building user interfaces.
+- [Bootstrap-React](https://react-bootstrap.github.io/): React components for Bootstrap.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contact
+
+Feel free to reach out with any questions or feedback:
+
+- GitHub: [Negrea-Andrei](https://github.com/Negrea-Andrei)
+- Email: negrea.andrei.contract@gmail.com
+- LinkedIn: [Andrei Negrea](https://www.linkedin.com/in/andrei-negrea-49a669239/)https://www.linkedin.com/in/andrei-negrea-49a669239/)
+
+Thank you for exploring my portfolio! 🚀
