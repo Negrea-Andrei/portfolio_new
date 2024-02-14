@@ -4,7 +4,7 @@
 
 Welcome to the repository of my personal portfolio website. This platform showcases my skills, projects, and experience. The portfolio is built using Express and Node.js for the backend, Nodemailer for email functionality, and React with Bootstrap-React for the frontend.
 
-**Explore the Live Site: [https://andrei-negrea-contact.onrender.com/](https://andrei-negrea-contact.onrender.com/)**
+**⚡⚡⚡Explore the Live Site: [https://andrei-negrea-contact.onrender.com/](https://andrei-negrea-contact.onrender.com/)⚡⚡⚡**
 
 ## Table of Contents
 
