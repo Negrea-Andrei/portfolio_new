@@ -49,13 +49,7 @@ export default function Project() {
       description: "This is a classic implementation of the snake game using HTML, CSS, and JavaScript. The game features a snake that moves around a grid, eating food to grow longer. Your goal is to collect as much food as possible without colliding with the boundaries of the game board or the snake's own body.",
       imgURL: snake,
       URL: "https://negrea-andrei.github.io/snake_game/",
-    },
-    {
-      title: "Project",
-      description: "Coming soon",
-      imgURL: placeholder,
-      URL: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUIcmlja3JvbGw%3D",
-    },
+    }
   ];
   return (
     <section className="project" id="projects">
