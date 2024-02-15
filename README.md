@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![Demo](./images/readme_video.gif)
+![Demo](src/assets/img/readme_video.gif)
 
 ## Overview
 
