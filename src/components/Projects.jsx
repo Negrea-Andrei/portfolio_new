@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Tab from "react-bootstrap/Tab";
 import Card from "./Card";
 import pokemon from "../assets/img/pokemon-game.png";
+import inventory from "../assets/img/inventory.png"
 import CV from "../assets/img/CV.jpg";
 import placeholder from "../assets/img/placeholder.png";
 import weather from "../assets/img/weather.png"
@@ -10,6 +11,13 @@ import snake from "../assets/img/snake.png"
 
 export default function Project() {
   const projects = [
+    {
+      title: "Inventory",
+      description:
+        "This project is an inventory management system built using Node.js and Express. It provides functionality to manage categories, locations, manufacturers, and products within an inventory. The project uses a modular structure with separate controllers for each entity.",
+      imgURL: inventory,
+      URL: "https://andrei-inventory.onrender.com/store",
+    },
     {
       title: "Pokemon game",
       description:
