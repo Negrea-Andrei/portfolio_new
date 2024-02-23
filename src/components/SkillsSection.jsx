@@ -7,6 +7,7 @@ import git_logo from "../assets/img/icons/git_logo.svg"
 import sql_logo from "../assets/img/icons/sql_logo.svg"
 import mongodb_logo from "../assets/img/icons/mongodb_logo.svg"
 import node_js_logo from "../assets/img/icons/node_js_logo.svg"
+import firebase_logo from "../assets/img/icons/firebase_logo.svg"
 import jira_logo from "../assets/img/icons/jira_logo.svg"
 import webpack_logo from "../assets/img/icons/webpack_logo.svg"
 import 'react-multi-carousel/lib/styles.css';
@@ -63,6 +64,10 @@ export default function SkillsSection() {
                             <div className='item'>
                                 <img src={mongodb_logo} alt='mongodb_logo'/>
                                 <h5>MongoDB</h5>
+                            </div>
+                            <div className='item'>
+                                <img src={firebase_logo} alt='firebase_logo'/>
+                                <h5>Firebase</h5>
                             </div>
                             <div className='item'>
                                 <img src={sql_logo} alt='sql_logo'/>
