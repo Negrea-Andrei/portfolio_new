@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Tab from "react-bootstrap/Tab";
 import Card from "./Card";
+import polaroids from "../assets/img/polaroids.png"
 import pokemon from "../assets/img/pokemon-game.png";
 import inventory from "../assets/img/inventory.png"
 import CV from "../assets/img/CV.jpg";
@@ -17,6 +18,13 @@ export default function Project() {
         "This project is an inventory management system built using Node.js and Express. It provides functionality to manage categories, locations, manufacturers, and products within an inventory. The project uses a modular structure with separate controllers for each entity.",
       imgURL: inventory,
       URL: "https://andrei-inventory.onrender.com/store",
+    },
+    {
+      title: "Polaroids",
+      description:
+        "Polaroids is a React-based stock management web application designed for efficient organization and management of stock-related files.",
+      imgURL: polaroids,
+      URL: "https://polaroid-feb2e.web.app/",
     },
     {
       title: "Pokemon game",
