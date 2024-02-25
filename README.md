@@ -73,7 +73,7 @@ To run the application locally, follow these steps:
 - **Responsive Design:** Ensures a seamless experience across various devices and screen sizes.
 - **Project Showcase:** Highlights projects with detailed descriptions, images, and links.
 - **Contact Form:** Allows users to reach out directly via a contact form, powered by Nodemailer for email notifications.
-- **Resume Section:** Dedicated space for users to view your resume. Click the "View Resume" button to access it.
+- **Resume Section:** Dedicated space for users to view your resume. Click the "Download" button to access it.
 
 ## Built With
 
