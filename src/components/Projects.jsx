@@ -4,6 +4,7 @@ import Card from "./Card";
 import polaroids from "../assets/img/polaroids.png"
 import pokemon from "../assets/img/pokemon-game.png";
 import inventory from "../assets/img/inventory.png"
+import portfolio from "../assets/img/portfolio_img.png"
 import CV from "../assets/img/CV.jpg";
 import placeholder from "../assets/img/placeholder.png";
 import weather from "../assets/img/weather.png"
@@ -57,6 +58,12 @@ export default function Project() {
       description: "This is a classic implementation of the snake game using HTML, CSS, and JavaScript. The game features a snake that moves around a grid, eating food to grow longer. Your goal is to collect as much food as possible without colliding with the boundaries of the game board or the snake's own body.",
       imgURL: snake,
       URL: "https://negrea-andrei.github.io/snake_game/",
+    },
+    {
+      title: "Portfolio",
+      description: "This platform showcases my skills, projects, and experience. The portfolio is built using Express and Node.js for the backend, Nodemailer for email functionality, and React with Bootstrap-React for the frontend.",
+      imgURL: portfolio,
+      URL: "https://andrei-negrea-contact.onrender.com/",
     }
   ];
   return (
