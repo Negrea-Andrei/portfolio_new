@@ -3,6 +3,7 @@ import Tab from "react-bootstrap/Tab";
 import Card from "./Card";
 import polaroids from "../assets/img/polaroids.png"
 import pokemon from "../assets/img/pokemon-game.png";
+import courses from "../assests/img/courses.png"
 import inventory from "../assets/img/inventory.png"
 import portfolio from "../assets/img/portfolio_img.png"
 import CV from "../assets/img/CV.jpg";
@@ -13,6 +14,13 @@ import snake from "../assets/img/snake.png"
 
 export default function Project() {
   const projects = [
+    {
+      title: "Online courses",
+      description:
+        "A webpage dedicated for online courses that was crafted using React, Javascript and Tailwind CSS for a modern looking website",
+      imgURL: courses,
+      URL: "https://courses-theta-ten.vercel.app/",
+    },
     {
       title: "Inventory",
       description:
