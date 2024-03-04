@@ -53,6 +53,10 @@ export default function SkillsSection() {
                             <div className='item'>
                                 <img src={javascript_logo} alt='javascript'/>
                                 <h5>Javascript</h5>
+                            </div>                            
+                            <div className='item'>
+                                <img src={tailwind_logo} alt='tailwind_logo'/>
+                                <h5>Tailwind CSS</h5>
                             </div>
                             <div className='item'>
                                 <img src={webpack_logo} alt='webpack_logo'/>
@@ -69,10 +73,6 @@ export default function SkillsSection() {
                             <div className='item'>
                                 <img src={firebase_logo} alt='firebase_logo'/>
                                 <h5>Firebase</h5>
-                            </div>
-                            <div className='item'>
-                                <img src={tailwind_logo} alt='tailwind_logo'/>
-                                <h5>Tailwind CSS</h5>
                             </div>
                             <div className='item'>
                                 <img src={sql_logo} alt='sql_logo'/>
