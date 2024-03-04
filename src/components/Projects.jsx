@@ -3,7 +3,7 @@ import Tab from "react-bootstrap/Tab";
 import Card from "./Card";
 import polaroids from "../assets/img/polaroids.png"
 import pokemon from "../assets/img/pokemon-game.png";
-import courses from "../assests/img/courses.png"
+import courses from "../assets/img/courses.png"
 import inventory from "../assets/img/inventory.png"
 import portfolio from "../assets/img/portfolio_img.png"
 import CV from "../assets/img/CV.jpg";
