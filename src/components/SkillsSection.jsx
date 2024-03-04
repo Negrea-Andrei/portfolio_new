@@ -4,6 +4,7 @@ import web_development from "../assets/img/icons/web_development_logo.svg"
 import react_logo from "../assets/img/icons/react_logo.svg"
 import javascript_logo from "../assets/img/icons/javascript_logo.svg"
 import git_logo from "../assets/img/icons/git_logo.svg"
+import tailwind_logo from "../assets/img/icons/tailwind_logo.svg"
 import sql_logo from "../assets/img/icons/sql_logo.svg"
 import mongodb_logo from "../assets/img/icons/mongodb_logo.svg"
 import node_js_logo from "../assets/img/icons/node_js_logo.svg"
@@ -68,6 +69,10 @@ export default function SkillsSection() {
                             <div className='item'>
                                 <img src={firebase_logo} alt='firebase_logo'/>
                                 <h5>Firebase</h5>
+                            </div>
+                            <div className='item'>
+                                <img src={tailwind_logo} alt='tailwind_logo'/>
+                                <h5>Tailwind CSS</h5>
                             </div>
                             <div className='item'>
                                 <img src={sql_logo} alt='sql_logo'/>
