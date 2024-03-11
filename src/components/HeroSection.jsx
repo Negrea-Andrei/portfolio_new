@@ -12,13 +12,10 @@ export default function HeroSection() {
               Hey! I am Andrei!
               <br /><span className="space-color"> Web Developer</span>
             </h1>
-            <p>
-              Proficient in full-stack development (HTML, CSS, JavaScript, React, Webpack, MongoDB, Node.js, Express), 
-              I'm dedicated to driving innovation and creating seamless digital experiences. As a young, open-minded 
-              trailblazer, I've evolved from a deposit clerk to a tech virtuoso, demonstrating adaptability in roles 
-              from text and images to IT support and database management. Passionate about building and problem-solving, 
-              I am committed to continuous learning across various fields and technologies, consistently delivering creative 
-              solutions in the ever-evolving tech landscape.
+            <p>As a young and open-minded professional, I've crafted responsive websites with HTML, CSS, JavaScript, 
+              and React for optimal user experiences across devices. I design, implement, and troubleshoot 
+              features, ensuring high-quality code. Using Git for efficient collaboration, I stay 
+              updated on industry trends, continuously improving my skills for competitiveness in the field.
             </p>
           </Col>
           <Col xs={15} md={6} xl={5}>
