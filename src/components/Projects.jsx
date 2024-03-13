@@ -81,7 +81,7 @@ export default function Project() {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>I'm excited to share a glimpse into a few of the projects I've had the privilege of working on. Each endeavor reflects my passion for web developement and showcases my commitment to delivering impactful results. Let's dive into some highlights from my portfolio.</p>
+            <p>I'm excited to share a glimpse into a few of the projects I've had the privilege of working on.Let's dive into some highlights from my portfolio.</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Tab.Content>
                 <Tab.Pane eventKey="first">
