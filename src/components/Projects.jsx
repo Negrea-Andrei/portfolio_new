@@ -24,7 +24,7 @@ export default function Project() {
     {
       title: "Rent A'Car",
       description:
-        "A webpage dedicated for car rentals that was crafted using React, Javascript and Tailwind CSS with a dark mode for a modern looking website dedicated to car lovers",
+        "Rent A'Car is a webpage dedicated for car rentals that uses React, Javascript and Tailwind CSS with a dark mode for a modern looking website dedicated to car lovers",
       imgURL: rent,
       URL: "https://rent-a-car-wheat.vercel.app/",
     },
