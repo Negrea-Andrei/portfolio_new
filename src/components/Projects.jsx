@@ -5,6 +5,7 @@ import polaroids from "../assets/img/polaroids.png"
 import pokemon from "../assets/img/pokemon-game.png";
 import courses from "../assets/img/courses.png"
 import inventory from "../assets/img/inventory.png"
+import rent from "../assets/img/rent_a'_car.png"
 import portfolio from "../assets/img/portfolio_img.png"
 import CV from "../assets/img/CV.jpg";
 import placeholder from "../assets/img/placeholder.png";
@@ -22,11 +23,11 @@ export default function Project() {
       URL: "https://courses-theta-ten.vercel.app/",
     },
     {
-      title: "Inventory",
+      title: "Rent A'Car",
       description:
-        "This project is an inventory management system built using Node.js and Express. It provides functionality to manage categories, locations, manufacturers, and products within an inventory. The project uses a modular structure with separate controllers for each entity.",
-      imgURL: inventory,
-      URL: "https://andrei-inventory.onrender.com/store",
+        "A webpage dedicated for car rentals that was crafted using React, Javascript and Tailwind CSS with a dark mode for a modern looking website dedicated to car lovers",
+      imgURL: rent,
+      URL: "https://rent-a-car-wheat.vercel.app/",
     },
     {
       title: "Polaroids",
@@ -35,6 +36,13 @@ export default function Project() {
       imgURL: polaroids,
       URL: "https://polaroid-feb2e.web.app/",
     },
+    {
+      title: "Inventory",
+      description:
+        "This project is an inventory management system built using Node.js and Express. It provides functionality to manage categories, locations, manufacturers, and products within an inventory. The project uses a modular structure with separate controllers for each entity.",
+      imgURL: inventory,
+      URL: "https://andrei-inventory.onrender.com/store",
+    },    
     {
       title: "Pokemon game",
       description:
