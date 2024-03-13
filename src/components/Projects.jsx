@@ -10,7 +10,6 @@ import portfolio from "../assets/img/portfolio_img.png"
 import CV from "../assets/img/CV.jpg";
 import placeholder from "../assets/img/placeholder.png";
 import weather from "../assets/img/weather.png"
-import TODO from "../assets/img/TODO.png";
 import snake from "../assets/img/snake.png"
 
 export default function Project() {
@@ -56,12 +55,6 @@ export default function Project() {
         "The CV App is a web application built using Vite and React that allows users to easily create and edit their professional CVs. Users can input their general information, add a short description, list their educational background, work experience, and skills to generate a well-structured CV.",
       imgURL: CV,
       URL: "https://cv-app-fawn.vercel.app/",
-    },
-    {
-      title: "Todo list",
-      description: "The TODO App is a web application designed to help users efficiently manage their projects and tasks. The application provides a straightforward interface for creating, viewing, and organizing projects and associated tasks.",
-      imgURL: TODO,
-      URL: "https://negrea-andrei.github.io/TODO/",
     },
     {
       title: "Weather",
