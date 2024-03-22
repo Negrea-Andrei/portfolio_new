@@ -5,6 +5,7 @@ import polaroids from "../assets/img/polaroids.png"
 import pokemon from "../assets/img/pokemon-game.png";
 import courses from "../assets/img/courses.png"
 import inventory from "../assets/img/inventory.png"
+import video from "../assets/img/video-app.png"
 import rent from "../assets/img/rent_a'_car.png"
 import portfolio from "../assets/img/portfolio_img.png"
 import CV from "../assets/img/CV.jpg";
@@ -20,6 +21,13 @@ export default function Project() {
         "A webpage dedicated for online courses that was crafted using React, Javascript and Tailwind CSS for a modern looking website",
       imgURL: courses,
       URL: "https://courses-theta-ten.vercel.app/",
+    },
+    {
+      title: "Meeting App",
+      description:
+        "A sophisticated video conferencing platform developed with Stream, React, and JavaScript, complemented by Tailwind CSS for a sleek and contemporary interface",
+      imgURL: video,
+      URL: "https://video-app-one-xi.vercel.app/",
     },
     {
       title: "Rent A'Car",
