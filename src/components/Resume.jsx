@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 export default function Resume() {
   const downloadDocument = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/13e7-qlTzvYu9mG3E1j3y_295VtiLlkVV/view?usp=sharing";
+    link.href = "https://drive.google.com/file/d/1zzZZH5gtXetbP_lHWm52xWmp4K1srAl4/view?usp=sharing";
     link.setAttribute('download', 'Negrea_Andrei_CV.pdf');
     
     link.setAttribute('target', '_blank');
